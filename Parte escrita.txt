@@ -1,0 +1,6 @@
+utilizar https nas aplicações web
+utilizar chave de criptografia para comunicação entre aplicação socket.
+utilizar vpn para comunicação entre as aplicações.
+
+Utilizar fila para atendimento dos pedidos.
+utilizar sessões críticas em objetos que podem ser compartilhados por várias threads
