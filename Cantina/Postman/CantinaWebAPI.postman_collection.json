@@ -1,0 +1,659 @@
+{
+	"info": {
+		"_postman_id": "15e2ef0e-bbf1-43b0-a1d4-0bf04ee64363",
+		"name": "CantinaWebAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25442102"
+	},
+	"item": [
+		{
+			"name": "Profile",
+			"item": [
+				{
+					"name": "profileGetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/profiles/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"profiles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profileGetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/profiles/c2a04380-d572-4408-9e06-bafa408a715e",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"profiles",
+								"c2a04380-d572-4408-9e06-bafa408a715e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profilePost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Responsável\",\r\n    \"Description\": \"Perfil responsável\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/profiles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"profiles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profilePut",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Responsável\",\r\n    \"Description\": \"Perfil Responsável\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/profiles/7549208e-5794-4c7b-b59f-5b709bcd14b9",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"profiles",
+								"7549208e-5794-4c7b-b59f-5b709bcd14b9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profileDelete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/profiles/2cbb8915-b5f4-4773-84da-5c1687bb4810",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"profiles",
+								"2cbb8915-b5f4-4773-84da-5c1687bb4810"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"dependenteteste6@gmail.com\",\r\n    \"Password\": \"ACEF55D3E3A3ABB2A4ADC578A1D5D6CB\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/login/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userGetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/users/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userPut",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Pai do João e da Maria\",\r\n    \"Identification\": \"00000000191\",\r\n    \"ProfileId\": \"08b57756-184b-4f3d-862d-7173343f2ff3\",\r\n    \"Email\": \"paidojoaoemaria@gmail.com\",\r\n    \"Password\": \"senhapaidojoaoemaria\",\r\n    \"DateOfBirth\": \"2001-09-08\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/users/ff410777-8d0d-4daf-917c-601dfe0535de",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"users",
+								"ff410777-8d0d-4daf-917c-601dfe0535de"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userGetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/users/69b21f01-7536-417e-a9a4-1d2f9d151a6c",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"users",
+								"69b21f01-7536-417e-a9a4-1d2f9d151a6c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userDelete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/users/eeb42705-1fa7-4bf9-ab47-8eb427f2ce61",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"users",
+								"eeb42705-1fa7-4bf9-ab47-8eb427f2ce61"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"\",\r\n    \"Identification\": \"01758166031\",\r\n    \"ProfileId\": \"7549208e-5794-4c7b-b59f-5b709bcd14b9\",\r\n    \"Email\": \"dependente2@gmail.com\",\r\n    \"Password\": \"ABC568ADFCE45C668AEED45DA54CBAF\",\r\n    \"DateOfBirth\": \"2001-09-08\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/users/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Status",
+			"item": [
+				{
+					"name": "StatusPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"status acompanhamento\",\r\n    \"Description\": \"acompanhamento\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/status",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "StatusDelete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/status/b2e17065-66b7-4f46-a9b9-3683ef0dab72",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"status",
+								"b2e17065-66b7-4f46-a9b9-3683ef0dab72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "StatusGetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/status",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tasks",
+			"item": [
+				{
+					"name": "TasksPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Tarefa teste\",\r\n    \"Description\": \"Teste de cadastro de tarefas\",\r\n    \"StatusId\": \"9b0ae262-4888-4fb7-87f8-da74f238dffd\",\r\n    \"Points\": 10,\r\n    \"ResponsableDependentId\": \"67702918-ee2e-433e-bffd-e54ca7cc9367\",\r\n    \"ExpirationDate\": \"2001-09-08\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/tasks",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TasksGetByResponsableDependentId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/tasks/d6ca3d30-c4e0-4f3a-953a-c7ba725d01af",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"tasks",
+								"d6ca3d30-c4e0-4f3a-953a-c7ba725d01af"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SubTasks",
+			"item": [
+				{
+					"name": "SubTasksPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"Tarefa teste\",\r\n    \"Description\": \"Teste de cadastro de tarefas\",\r\n    \"StatusId\": \"9b0ae262-4888-4fb7-87f8-da74f238dffd\",\r\n    \"Points\": 10,\r\n    \"ExpirationDate\": \"2001-09-08\",\r\n    \"TaskId\": \"1a04124e-6cb6-4750-8d65-72b0c6a0ac20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/subtasks",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"subtasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SubTasksGetByTaskId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/subtasks/1a04124e-6cb6-4750-8d65-72b0c6a0ac20",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"subtasks",
+								"1a04124e-6cb6-4750-8d65-72b0c6a0ac20"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ResponsableDependent",
+			"item": [
+				{
+					"name": "AddDependent",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"profileId\": \"7549208e-5794-4c7b-b59f-5b709bcd14b9\",\r\n        \"name\": \"Dependente teste 7\",\r\n        \"email\": \"dependenteteste7@gmail.com\",\r\n        \"identification\": \"46763593066\",\r\n        \"dateOfBirth\": \"2001-09-08\",\r\n        \"Password\": \"ACEF55D3E3A3ABB2A4ADC578A1D5D6CB\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/adddependent/877f2ba1-623c-4bac-9ce5-0f7d39a4d60d",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"adddependent",
+								"877f2ba1-623c-4bac-9ce5-0f7d39a4d60d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResponsableDependentPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"ResponsableId\": \"877f2ba1-623c-4bac-9ce5-0f7d39a4d60d\",\r\n        \"DependentId\": \"686e997a-03ae-49c9-95d1-09f9ad38123f\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/responsabledependent",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"responsabledependent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResponsableDependentPostGetByResponsableId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/responsabledependent/responsableid/877f2ba1-623c-4bac-9ce5-0f7d39a4d60d",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"responsabledependent",
+								"responsableid",
+								"877f2ba1-623c-4bac-9ce5-0f7d39a4d60d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResponsableDependentPostGetByDependentId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/responsabledependent/dependentid/39436c44-086d-45df-a7af-99d85868ef0f",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"responsabledependent",
+								"dependentid",
+								"39436c44-086d-45df-a7af-99d85868ef0f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResponsableDependentGetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/responsabledependent",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"responsabledependent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResponsableDependentDelete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/responsabledependent/4ed573f8-f358-4d18-bd3b-9e3d3deea7bc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"responsabledependent",
+								"4ed573f8-f358-4d18-bd3b-9e3d3deea7bc"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Recompense",
+			"item": [
+				{
+					"name": "RecompenseGetByDependentId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7015/recompenses/fe6c9da9-f645-4f2c-a514-5d17ef7d72c7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"recompenses",
+								"fe6c9da9-f645-4f2c-a514-5d17ef7d72c7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RecompensePost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserId\": \"fe6c9da9-f645-4f2c-a514-5d17ef7d72c7\",\r\n    \"Name\": \"Nome recompensa\",\r\n    \"Description\": \"Descrição recompensa\",\r\n    \"StatusId\": \"9b0ae262-4888-4fb7-87f8-da74f238dffd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7015/recompenses/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7015",
+							"path": [
+								"recompenses",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

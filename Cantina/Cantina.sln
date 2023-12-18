@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CantinaWebAPI", "CantinaWebAPI.csproj", "{BFA0AE07-2058-4FD5-B38A-96A039F0AB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Publisher.Api", "..\Rabbit.Publisher.Api\Rabbit.Publisher.Api.csproj", "{A32774C4-3FE3-4381-A3E3-AFC86BBA376B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Models", "..\Rabbit.Models\Rabbit.Models.csproj", "{F1E2EDD3-CD9E-4B98-86DB-F2B534EC0888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Services", "..\Rabbit.Services\Rabbit.Services.csproj", "{810608A2-F339-43F7-99A5-CE5AE3618100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Repositories", "..\Rabbit.Repositories\Rabbit.Repositories.csproj", "{9D83A8F3-F959-46AD-A8B7-C960736B8CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Consumer", "..\Rabbit.Consumer\Rabbit.Consumer.csproj", "{2DD66E3A-0B72-4047-B9E8-8B4C15CCFF76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA0AE07-2058-4FD5-B38A-96A039F0AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA0AE07-2058-4FD5-B38A-96A039F0AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA0AE07-2058-4FD5-B38A-96A039F0AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA0AE07-2058-4FD5-B38A-96A039F0AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32774C4-3FE3-4381-A3E3-AFC86BBA376B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32774C4-3FE3-4381-A3E3-AFC86BBA376B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32774C4-3FE3-4381-A3E3-AFC86BBA376B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32774C4-3FE3-4381-A3E3-AFC86BBA376B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E2EDD3-CD9E-4B98-86DB-F2B534EC0888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E2EDD3-CD9E-4B98-86DB-F2B534EC0888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E2EDD3-CD9E-4B98-86DB-F2B534EC0888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E2EDD3-CD9E-4B98-86DB-F2B534EC0888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810608A2-F339-43F7-99A5-CE5AE3618100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810608A2-F339-43F7-99A5-CE5AE3618100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810608A2-F339-43F7-99A5-CE5AE3618100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810608A2-F339-43F7-99A5-CE5AE3618100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D83A8F3-F959-46AD-A8B7-C960736B8CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D83A8F3-F959-46AD-A8B7-C960736B8CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D83A8F3-F959-46AD-A8B7-C960736B8CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D83A8F3-F959-46AD-A8B7-C960736B8CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD66E3A-0B72-4047-B9E8-8B4C15CCFF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD66E3A-0B72-4047-B9E8-8B4C15CCFF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD66E3A-0B72-4047-B9E8-8B4C15CCFF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD66E3A-0B72-4047-B9E8-8B4C15CCFF76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {225B66C0-0F71-4F53-AE86-306731C93D56}
+	EndGlobalSection
+EndGlobal
