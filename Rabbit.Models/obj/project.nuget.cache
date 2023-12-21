@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OaRgbQ831giEpahWb5hTnjJ8+SiYfAFQBPWy3jGUCXHq57jdhKv3myaOjUHd2hBPLub6z1Fo3AC7SfGUuxveNg==",
+  "dgSpecHash": "5EvE8XPIKdAmlAW1jsCfgIi67LBKWUkS3hky9OpHXeMa7eOGM5tW5ymL5QMOitnKnx7Vi7fhjJFeqNDfFsbUdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

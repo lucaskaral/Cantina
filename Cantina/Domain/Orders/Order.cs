@@ -10,5 +10,6 @@ namespace CantinaWebAPI.Domain.Orders
         public DateTime DateTime { get; set; }
         public int Status { get; set; }
         public List<OrderProducts> OrderProducts { get; set; }
+        public double OrderPrice { get; set; }
     }
 }

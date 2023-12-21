@@ -1,4 +1,5 @@
 ﻿using CantinaWebAPI.Infra.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Rabbit.Services;
 using Rabbit.Services.Interfaces;
@@ -13,6 +14,7 @@ namespace CantinaWebAPI.EndPoints.Orders
         public static string[] Methods => new string[] { HttpMethod.Put.ToString() };
         public static Delegate Handle => Action;
 
+        [Authorize]
         public static IResult Action([FromRoute] Guid id, OrderRequest orderRequest, ApplicationDbContext context)
         {
             var order = context.Orders

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
         "projectName": "Rabbit.Models",
-        "projectPath": "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\Rabbit.Models.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Models\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

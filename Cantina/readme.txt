@@ -16,11 +16,6 @@ Abrir o projeto no visual studio e executar (caso o visual studio peça para inst
 
 dotnet ef database update
 
-dotnet ef migrations add Identity
-dotnet ef database update
-dotnet ef migrations add OrderProduct
-dotnet ef database update
-dotnet ef migrations add ProductsOrders
-dotnet ef migrations add NewColumnsOnOrderProduct
-dotnet ef migrations add Ajuste
+dotnet ef migrations add Cantina
+dotnet ef migrations add AddColumnPriceOnOrder
 dotnet ef database update

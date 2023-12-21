@@ -2,13 +2,14 @@
 using CantinaWebAPI.Domain.Orders;
 using CantinaWebAPI.Domain.Products;
 using CantinaWebAPI.Domain.Users;
-using CantinaWebAPI.EndPoints.Orders;
 using Flunt.Notifications;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace CantinaWebAPI.Infra.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<Order> Orders {  get; set; }
         public DbSet<Product> Products {  get; set; }
@@ -22,6 +23,7 @@ namespace CantinaWebAPI.Infra.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Ignore<Notification>();
             // User configs
             modelBuilder.Entity<User>()

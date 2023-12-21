@@ -1,6 +1,7 @@
 using CantinaWebAPI.EndPoints.Orders;
 using CantinaWebAPI.EndPoints.Products;
 using CantinaWebAPI.EndPoints.Users;
+using CantinaWebAPI.EndPoints.Clients;
 using CantinaWebAPI.Infra.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,11 @@ using Rabbit.Repositories.Interfaces;
 using Rabbit.Repositories;
 using Rabbit.Services.Interfaces;
 using Rabbit.Services;
+using CantinaWebAPI.EndPoints.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CantinaWebAPI
 {
@@ -20,9 +26,40 @@ namespace CantinaWebAPI
                                 .AddDbContext<ApplicationDbContext>(options => options
                                     .UseNpgsql(builder.Configuration.GetConnectionString("CantinaWebAPIDb")));
 
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(
+                    //Não desabilitar... Manter nível de exigência alto.
+                    //options =>
+                    //{
+                    //    options.Password.RequireNonAlphanumeric = false;
+                    //    options.Password.RequireDigit = false;
+                    //    options.Password.RequireLowercase = false;
+                    //    options.Password.RequiredLength = 3;
+                    //}
+                )
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
+            builder.Services.AddAuthorization(options =>
+            {
+                options.FallbackPolicy = new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser()
+                    .Build();
+            });
+            builder.Services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateActor = true,
+                    ValidateAudience = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = builder.Configuration["JwtBearerTokenSettings:Issuer"],
+                    ValidAudience = builder.Configuration["JwtBearerTokenSettings:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtBearerTokenSettings:SecretKey"]))
+                };
+            });
             // Add services to the container.
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
@@ -36,8 +73,11 @@ namespace CantinaWebAPI
                 build.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
             }));
 
-
             var app = builder.Build();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
+
             app.UseCors("corspolicy");
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -67,7 +107,12 @@ namespace CantinaWebAPI
             app.MapMethods(UserPost.Template, UserPost.Methods, UserPost.Handle);
             app.MapMethods(UserDelete.Template, UserDelete.Methods, UserDelete.Handle);
             app.MapMethods(UserGetById.Template, UserGetById.Methods, UserGetById.Handle);
-            app.MapMethods(UserGetByEmailAndPassword.Template, UserGetByEmailAndPassword.Methods, UserGetByEmailAndPassword.Handle);
+
+
+            app.MapMethods(ClientPost.Template, ClientPost.Methods, ClientPost.Handle);
+            app.MapMethods(ClientGetAll.Template, ClientGetAll.Methods, ClientGetAll.Handle);
+
+            app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handle);
 
             app.Run();
         }

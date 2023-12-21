@@ -1,4 +1,5 @@
 ﻿using Flunt.Notifications;
+using Microsoft.AspNetCore.Identity;
 
 namespace CantinaWebAPI.EndPoints
 {
@@ -13,6 +14,13 @@ namespace CantinaWebAPI.EndPoints
                 list.Add(notification.Message);
             }
             dictionary.Add("errors", list.ToArray());
+            return dictionary;
+        }
+
+        public static Dictionary<string, string[]> ConvertToProblemDetails(this IEnumerable<IdentityError> error)
+        {
+            var dictionary = new Dictionary<string, string[]>();
+            dictionary.Add("Error", error.Select(e => e.Description).ToArray());
             return dictionary;
         }
     }

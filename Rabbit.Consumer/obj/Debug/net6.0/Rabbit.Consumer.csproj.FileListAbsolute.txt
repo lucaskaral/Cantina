@@ -36,3 +36,22 @@ C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\refint\Rabbit.Consumer.dll
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.pdb
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\ref\Rabbit.Consumer.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Consumer.deps.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Consumer.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Consumer.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Models.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Services.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Models.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Repositories.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\bin\Debug\net6.0\Rabbit.Services.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\refint\Rabbit.Consumer.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\Rabbit.Consumer.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Consumer\obj\Debug\net6.0\ref\Rabbit.Consumer.dll

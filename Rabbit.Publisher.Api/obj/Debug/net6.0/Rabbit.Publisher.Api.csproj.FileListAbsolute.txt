@@ -78,3 +78,43 @@ C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\re
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.pdb
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.genruntimeconfig.cache
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\ref\Rabbit.Publisher.Api.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\appsettings.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Publisher.Api.exe
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Publisher.Api.deps.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Publisher.Api.runtimeconfig.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Publisher.Api.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Publisher.Api.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Models.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Services.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Models.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Repositories.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\bin\Debug\net6.0\Rabbit.Services.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets\msbuild.Rabbit.Publisher.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.Rabbit.Publisher.Api.props
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Rabbit.Publisher.Api.props
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Rabbit.Publisher.Api.props
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\scopedcss\bundle\Rabbit.Publisher.Api.styles.css
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\refint\Rabbit.Publisher.Api.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\Rabbit.Publisher.Api.genruntimeconfig.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Publisher.Api\obj\Debug\net6.0\ref\Rabbit.Publisher.Api.dll

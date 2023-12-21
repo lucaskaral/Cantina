@@ -9,7 +9,7 @@ namespace Rabbit.Models.Entities
     public class RabbitMessage
     {
         public Guid Id { get; set; }
-        public string Title { get; set; }
-        public string Text { get; set; }
+        public string ClientName { get; set; }
+        public string OrderData { get; set; }
     }
 }

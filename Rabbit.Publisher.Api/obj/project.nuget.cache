@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GhK0OLEY01DwvmQjKrfmcnZETGg8lbfU0OAMT0EHIKC0Xn6P9XBroggw7K65d01AVKQp2Lk+w/VdFxMpx3Yqjg==",
+  "dgSpecHash": "ssKtCsSXk/5WutonzHLIN0hbT8+XXVfyLdjh2LwcBTdO2Zdp8N3WiYVEHMAcj026Iv+7woOqdIUNOPoK5eRbdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Downloads\\ProjetoCantina\\Rabbit.Publisher.Api\\Rabbit.Publisher.Api.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Senac\\Sistemas Distribuídos\\ProjetoCantina\\Rabbit.Publisher.Api\\Rabbit.Publisher.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

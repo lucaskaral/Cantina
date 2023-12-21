@@ -28,3 +28,18 @@ C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rab
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\refint\Rabbit.Repositories.dll
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.pdb
 C:\Users\lucas\Downloads\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\ref\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\bin\Debug\net6.0\Rabbit.Repositories.deps.json
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\bin\Debug\net6.0\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\bin\Debug\net6.0\Rabbit.Repositories.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\bin\Debug\net6.0\Rabbit.Models.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\bin\Debug\net6.0\Rabbit.Models.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\refint\Rabbit.Repositories.dll
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\Rabbit.Repositories.pdb
+C:\Users\lucas\OneDrive\Documentos\Senac\Sistemas Distribuídos\ProjetoCantina\Rabbit.Repositories\obj\Debug\net6.0\ref\Rabbit.Repositories.dll
